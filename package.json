@@ -1,0 +1,25 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my potfolio",
+  "main": "index.html",
+  "dependencies": {
+    "node-sass": "^4.12.0",
+    "sass": "^1.22.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madagalb/madagalb.github.io.git"
+  },
+  "author": "Madalena Galbiati",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madagalb/madagalb.github.io/issues"
+  },
+  "homepage": "https://github.com/madagalb/madagalb.github.io#readme"
+}
