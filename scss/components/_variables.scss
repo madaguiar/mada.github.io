@@ -34,16 +34,25 @@
 // 1. Colors
 // ==========================================================================
 
-$primary-color: color("teal", "lighten-1") !default;
+$theme-blue: #227DAC;
+$theme-purple: #443988;
+$theme-pink: #9F0052;
+$theme-orange: #FF3F20;
+$theme-yellow: #FFBE00;
+
+$off-black: rgba(0, 0, 0, 0.87) !default;
+
+$primary-color: $theme-blue !default;
 $primary-color-light: lighten($primary-color, 15%) !default;
 $primary-color-dark: darken($primary-color, 15%) !default;
 
-$secondary-color: color("teal", "lighten-1") !default;
+$secondary-color: $theme-yellow !default;
 $success-color: color("green", "base") !default;
 $error-color: color("red", "base") !default;
-$link-color: color("light-blue", "darken-1") !default;
+$link-color: $off-black !default;
 
-$off-black: rgba(0, 0, 0, 0.87) !default;
+
+
 
 
 // 2. Badges
@@ -72,7 +81,7 @@ $button-disabled-color: #9F9F9F !default;
 // Raised buttons
 $button-raised-background: $secondary-color !default;
 $button-raised-background-hover: lighten($button-raised-background, 5%) !default;
-$button-raised-color: #fff !default;
+$button-raised-color: $off-black !default;
 
 // Large buttons
 $button-large-font-size: 15px !default;
